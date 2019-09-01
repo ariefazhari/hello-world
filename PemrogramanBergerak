@@ -26,7 +26,7 @@
             android:textAlignment="center"
             android:textColor="#CDA1E1"
             android:fontFamily="sans-serif-black"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <TextView
             android:layout_width="316dp"
@@ -36,7 +36,7 @@
             android:text="Yang ke 13 Nana"
             android:textAlignment="center"
             android:textColor="#CDA1E1"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <ImageView
             android:layout_width="199dp"
