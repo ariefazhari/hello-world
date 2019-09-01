@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="403dp"
+        android:layout_height="735dp"
+        android:background="@drawable/balon"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+        <TextView
+            android:id="@+id/world"
+            android:layout_width="301dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="250dp"
+            android:text="Selamat ulang tahun"
+            android:textAlignment="center"
+            android:textColor="#CDA1E1"
+            android:fontFamily="sans-serif-black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/world"
+            android:fontFamily="sans-serif-black"
+            android:text="Yang ke 13 Nana"
+            android:textAlignment="center"
+            android:textColor="#CDA1E1"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="199dp"
+            android:layout_height="285dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/kue" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
